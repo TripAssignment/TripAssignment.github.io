@@ -1,3 +1,7 @@
+@font-face {
+  src: url("Amarillo.otf");
+  Font-family: Amarillo;
+}
 body {
   background-color: lime;
 }
@@ -5,7 +9,7 @@ p, a, h1, h2, h3, h4, h5, h6 {
   color: black;
   text-shadow: black 0.1em 0.1em 0.2em;
   text-decoration: none;
-  font-family: Florence, cursive;
+  font-family: Amarillo;
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
