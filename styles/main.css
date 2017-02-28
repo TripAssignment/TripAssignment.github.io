@@ -30,7 +30,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 .nav li a:hover, .dropdown:hover .dropbtn {
   background-color: #555;
-  transition: 0.3s;
 }
 .nav li.dropdown {
   display: inline-block;
@@ -57,4 +56,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 hr {
   border: 1px solid black;
+}
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+  transition: 0.3s;
+}
+.dropdown2-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown2:hover .dropdown2-content {
+  display: block;
 }
